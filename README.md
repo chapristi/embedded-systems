@@ -10,7 +10,8 @@
 
 ## Quick start
 
-- To start you must have the **bme280 sensor**  pluged in at **raspbery**.<br>
+- To start you must have the **bme280 sensor**  pluged in in I2C at **raspbery**.<br>
+<img src="https://media.discordapp.net/attachments/770896643976855575/1028753719241748531/IMG_20221009_213936.jpg?width=1093&height=676" width="400px" /><br>
 - Install **all python libraries** after you have to run the command **python3 bme280.py** => server is running on the port **8080**<br>
 - Run **npm install** after you have just to run command **node index.js** => server is runnig on the port **8000**<br>
 
