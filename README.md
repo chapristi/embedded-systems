@@ -4,46 +4,20 @@
 </div>
 
 <p align="center">
-  i wish make a completly connected house and i started to create a client with panel and a websocket server to send the temperature from my sensor captor bme280 in my rapsberry to follow the temperature of my house in real time. 
+  i wish make a completly connected house and i started to create a client with panel and a websocket server to send the temperature from my sensor bme280 in my rapsberry to follow the temperature of my house in real time. 
 </p>
 
-[![Add Badges](https://img.shields.io/badge/add%20badges-here-green.svg)
-
-> **Note:** Some observations if you need them (optional).
 
 ## Quick start
 
-Here you can tell us how to get your project up and running.
+- To start you must have the **bme280 sensor**  pluged in at **raspbery**.<br>
+- Install **all python libraries** after you have to run the command **python3 bme280.py** => server is running on the port **8080**<br>
+- Run **npm install** after you have just to run command **node index.js** => server is runnig on the port **8000**<br>
 
-You can add commands like: run `npm install` and `npm run serve`.
-
-It's important that you let everything clear and tell us as much information as possible.
-
-## API/Route Table (optional)
-
-Route | Description
---- | ---
-/login |
-/example | List of all examples
-/example-new | Create a new example
-/example-edit/:id | Edit a example, by passing his id
-/* | Goes to a not found page
-
-## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/inessadl/readme/issues)
-
-Thank you for considering contributing to Your Project Name!
-
-Please first note we have a code of conduct, please follow it in all your interactions with the project.
-
-We welcome any type of contribution, not only code. You can help with:
-- **QA**: File bug reports, the more details you can give the better (e.g. screenshots with the console open)
-- **Community**: Presenting the project at meetups, organizing a dedicated meetup for the local community
-- **Code**: Take a look at the [open issues](https://github.com/inessadl/readme/issues). Even if you can't write the code yourself, you can comment on them, showing that you care about a given issue matters. It helps us triage them
 
 ## Demo
-
-Create a demo and host it somewhere.
-
+### the panel to see temperature : 
+<img src="https://media.discordapp.net/attachments/770896643976855575/1028646060375150682/unknown.png?width=1352&height=676"/>
 ## TODO
 
 * [ ] Add E2E tests.
