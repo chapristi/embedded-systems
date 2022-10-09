@@ -16,7 +16,7 @@
 
 
 ## Demo
-### the panel to see temperature : 
+### the panel to follow the temperature of your house in real time : 
 <img src="https://media.discordapp.net/attachments/770896643976855575/1028646060375150682/unknown.png?width=1352&height=676"/>
 
 ### TODO
