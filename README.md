@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://th.bing.com/th/id/R.39992f1670ad598e7197c0ad824f6cd2?rik=vDq2PQUFC2HNNA&pid=ImgRaw&r=0" width="200px">
-  <h1>connected house by chapristi</h1>
+  <h1>embedded systems by chapristi</h1>
 </div>
 
 <p align="center">
