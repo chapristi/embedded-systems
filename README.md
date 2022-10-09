@@ -4,18 +4,12 @@
 </div>
 
 <p align="center">
-  i wish make a completly connected house and i started to create a client with panel and a websocket server to send the temperature from my sensor captor bme280 in my rapsberry to follow the temperature of my house in real time
+  i wish make a completly connected house and i started to create a client with panel and a websocket server to send the temperature from my sensor captor bme280 in my rapsberry to follow the temperature of my house in real time. 
 </p>
 
 [![Add Badges](https://img.shields.io/badge/add%20badges-here-green.svg)
 
 > **Note:** Some observations if you need them (optional).
-
-## Features
-
-* Feature 1
-* Feature 2
-* Feature 3
 
 ## Quick start
 
