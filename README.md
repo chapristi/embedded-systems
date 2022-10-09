@@ -4,8 +4,8 @@
 </div>
 
 <p align="center">
-  i wish make a completly connected house and i started to create a client with panel and a websocket server to send the temperature from my sensor bme280 in my rapsberry to follow the temperature of my house in real time. 
-</p>
+  i wish make embedded systems to help people. For exemple to follow his/her consomation,  have surveillance camera, or even to get the distance for different projet and more easily and cheaper than what you can find on the market place.Its a sort of toolbox and you choose what you want, and you follow instructions... I started to make a client with  panel in javascript and a websocket server with python  to send the temperature from my sensor bme280 in my rapsberry to follow the temperature of my house in real time. 
+  </p>
 
 
 ## Quick start
