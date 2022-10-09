@@ -20,7 +20,7 @@
 <img src="https://media.discordapp.net/attachments/770896643976855575/1028646060375150682/unknown.png?width=1352&height=676"/>
 ## TODO
 
-* [ ] Add E2E tests.
+* [ ] improve structure and the code.
 * [ ] Add Unit tests.
 * [ ] Add more functionalities.
-* [ ] Add ...
+* [ ] the next project will be with the **HC-SRO4** sensor
