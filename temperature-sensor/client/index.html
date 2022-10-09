@@ -1,0 +1,56 @@
+<div>
+  <h1 id="title"></h1>
+  <canvas id="myChart"></canvas>
+</div>
+<style>
+  div{
+      text-align: center;
+      height: 50%;
+      width: 80%;
+      margin: auto;    
+  }
+</style>
+<script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+<script>
+const updateChart = (temperature)=>{
+  console.log(temp)
+    var temp = new Date();
+    var dateStr = 
+                  temp.getHours().toString() + "h"+
+                  temp.getMinutes().toString() + "m"+
+                  temp.getSeconds().toString() + "s";
+      myChart.data.datasets.data = dateStr      
+      myChart.data.labels.push(dateStr);
+      myChart.data.datasets.forEach((dataset) => {
+        dataset.data.push(temperature);
+      });
+      myChart.update();
+
+}
+
+const socket = io("ws://192.168.1.20:8080");
+socket.on("test-event",function data(data){
+  document.getElementById("title").innerHTML = "temperature actuel de la maison est de " + data 
+  updateChart(parseFloat(data.slice(2,6),10))  
+})
+
+
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [],
+      datasets: [{
+        label: 'My First Dataset',
+        data: [],
+        fill: false,
+        borderColor: 'rgb(75, 192, 192)',
+        tension: 0.1
+      }],
+      options: {
+      responsive:true,
+    }
+    }
+});
+</script>
