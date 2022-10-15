@@ -18,6 +18,7 @@
 
 ## Demo
 ### the panel to follow the temperature of your house in real time : 
+<p>with an accurate graph</p>
 <p>If you want access this panel everywhere you have to redirect the port you want on you internet box to the raspbery and just host the client on the web host of your choice <br/>
  <img src="https://cdn.discordapp.com/attachments/770896643976855575/1028754770669871154/unknown.png" width="700px"/><br>
 <strong>Becarful : </strong> if you do that you must change your <strong>login and password</strong> and <strong>authorize juste the ip of your client.</strong> ;)
